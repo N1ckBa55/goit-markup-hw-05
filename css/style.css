@@ -123,6 +123,21 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--grey);
+position: relative;
+}
+
+.header-links::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+display: block;
+width: 48px;
+height: 4px;
+border-radius: 2px;
+background-color: var(--ocean);
+width: 100%;
+bottom: -1px;
 }
 
 

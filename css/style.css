@@ -61,7 +61,9 @@ fill: var(--cloud);
 .header{
 border-bottom: 1px solid var(--cornflower);
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+/* position: fixed;
+top: 0;
+width: 100%; */
 }
 
 
@@ -138,7 +140,10 @@ border-radius: 2px;
 width: 100%;
 bottom: -1px;
 }
+.current{
+}
 
+.header-links.current::after,
 .header-links:hover::after, .header-links:focus::after{
 background-color: var(--ocean);
 }

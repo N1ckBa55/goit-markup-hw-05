@@ -135,9 +135,12 @@ display: block;
 width: 48px;
 height: 4px;
 border-radius: 2px;
-background-color: var(--ocean);
 width: 100%;
 bottom: -1px;
+}
+
+.header-links:hover::after, .header-links:focus::after{
+background-color: var(--ocean);
 }
 
 

@@ -669,7 +669,7 @@ pointer-events: none;
 position: absolute;
 width: 408px;
 min-height: 576px;
-left: 516px;
+left: 50%;
 top: 88px;
 background: var(--dairy);
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -677,7 +677,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 padding: 24px;
-transform: scale(1) translateX(0);
+transform: translate(-50%, 0) scale(1) translateX(0);
 transition: 500ms;
 }
 

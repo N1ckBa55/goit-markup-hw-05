@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hw1</title>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Normalize -->
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <!-- Style -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <!-- Body -->
@@ -67,16 +74,10 @@
                         <button type="button" class="filter-button btns">Marketing</button>
                     </li>
                 </ul>
-            
 
-                <!-- Finger -->
-
-                <!-- Rows -->
-
-
-                <!-- Row 1 -->
-            
+                <!-- Project cards -->
                 <ul class="list prtf-card-list">
+                    <!-- Row 1 -->
                     <!-- Project Card 1 -->
                     <li class="prtf-card-item">
                         <a href="" class="link prtf-card-link">
@@ -95,13 +96,15 @@
                         <a href="" class="link prtf-card-link">
                             <div class="prtf-image-box">
                                 <img src="./images/portfolio/pay-phone.jpg" alt="Cars playment" width="360" height="300">
-                                <p class="hidden-card-text">
-                                    14 Stylish and User-Friendly App Design Concepts
-                                    · Task Manager App
-                                    · Calorie Tracker App
-                                    · Exotic Fruit Ecommerce App
-                                    · Cloud Storage App
-                                </p>
+                                <div class="overlay">
+                                    <p class="overlay-text">
+                                        14 Stylish and User-Friendly App Design Concepts
+                                        · Task Manager App
+                                        · Calorie Tracker App
+                                        · Exotic Fruit Ecommerce App
+                                        · Cloud Storage App
+                                    </p>
+                                </div>
                             </div>
                             <div class="prtf-card-content">
                                 <h2 class="description">Cashless Payment</h2>
@@ -253,6 +256,12 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Animation -->
+    <script src="./js/animation.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
